@@ -8,184 +8,566 @@
     <title>Sumiaya Sharif | Portfolio</title>
 
     <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
 
-    <!-- Navigation -->
-    <nav>
-        <h2>Sumiaya Sharif</h2>
+    <!-- ================= NAVBAR ================= -->
 
-        <div>
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#education">Education</a>
-            <a href="#contact">Contact</a>
-        </div>
-    </nav>
+    <header class="navbar">
 
+        <div class="nav-container">
 
-    <!-- Home -->
-    <section id="home">
+            <a href="#home" class="logo">
+                Sumiaya<span>.</span>
+            </a>
 
-        <div class="hero-text">
+            <nav class="nav-links">
 
-            <p>Hello, I'm</p>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#education">Education</a>
+                <a href="#contact">Contact</a>
 
-            <h1>Sumiaya Sharif</h1>
+            </nav>
 
-            <h2>Computer Science & Engineering Student</h2>
-
-            <p>
-                Interested in Software Development, Data Science,
-                Artificial Intelligence and Machine Learning.
-            </p>
-
-            <a href="#projects" class="button">
-                View My Projects
+            <a href="#contact" class="nav-button">
+                Let's Talk
             </a>
 
         </div>
 
-    </section>
+    </header>
 
 
-    <!-- About -->
-    <section id="about">
+    <!-- ================= HERO ================= -->
 
-        <h2>About Me</h2>
+    <main>
 
-        <p>
-            I am a Computer Science and Engineering student at
-            East West University, Bangladesh. I am interested in
-            software development, data science, artificial
-            intelligence and machine learning.
-        </p>
+        <section id="home" class="hero">
 
-    </section>
+            <div class="hero-container">
 
+                <div class="hero-content">
 
-    <!-- Skills -->
-    <section id="skills">
+                    <p class="hero-small">
+                        Hello, I'm
+                    </p>
 
-        <h2>Skills</h2>
+                    <h1>
+                        Sumiaya<br>
+                        <span>Sharif.</span>
+                    </h1>
 
-        <div class="skills-container">
+                    <h2>
+                        Computer Science & Engineering Student
+                    </h2>
 
-            <div>Python</div>
-            <div>Java</div>
-            <div>C</div>
-            <div>SQL</div>
-            <div>Machine Learning</div>
-            <div>Data Science</div>
-            <div>HTML</div>
-            <div>CSS</div>
-            <div>JavaScript</div>
-            <div>Git & GitHub</div>
+                    <p class="hero-description">
+                        I am interested in software development,
+                        data science, artificial intelligence and
+                        machine learning. I enjoy building practical
+                        solutions and learning new technologies.
+                    </p>
 
-        </div>
+                    <div class="hero-buttons">
 
-    </section>
+                        <a href="#projects" class="primary-button">
+                            View My Projects
+                        </a>
 
+                        <a href="resume/Sumiaya_Sharif_CV.pdf"
+                           class="secondary-button"
+                           target="_blank">
+                            Download CV
+                        </a>
 
-    <!-- Projects -->
-    <section id="projects">
+                    </div>
 
-        <h2>Projects</h2>
+                    <div class="social-links">
 
-        <div class="project">
+                        <a href="https://github.com/" target="_blank">
+                            GitHub
+                        </a>
 
-            <h3>Eye Disease Classification</h3>
+                        <a href="https://www.linkedin.com/" target="_blank">
+                            LinkedIn
+                        </a>
 
-            <p>
-                Deep learning based eye disease classification
-                using computer vision and image classification.
-            </p>
+                    </div>
 
-            <p>
-                Technologies: Python, PyTorch, CNN, Transformers
-            </p>
-
-            <a href="#" target="_blank">GitHub</a>
-
-        </div>
+                </div>
 
 
-        <div class="project">
+                <div class="hero-image">
 
-            <h3>Warli Art Classification</h3>
+                    <div class="image-circle">
 
-            <p>
-                Image classification project using deep learning
-                models for classifying Warli art images.
-            </p>
+                        <img src="images/profile.jpg"
+                             alt="Sumiaya Sharif">
 
-            <p>
-                Technologies: Python, PyTorch, MobileNetV3
-            </p>
+                    </div>
 
-            <a href="#" target="_blank">GitHub</a>
+                    <div class="floating-card card-one">
+                        Python
+                    </div>
 
-        </div>
+                    <div class="floating-card card-two">
+                        AI / ML
+                    </div>
 
+                </div>
 
-        <div class="project">
+            </div>
 
-            <h3>Poth-Chola Travel Agency</h3>
-
-            <p>
-                A travel agency project developed as a software
-                development project.
-            </p>
-
-            <a href="#" target="_blank">GitHub</a>
-
-        </div>
-
-    </section>
+        </section>
 
 
-    <!-- Education -->
-    <section id="education">
+        <!-- ================= ABOUT ================= -->
 
-        <h2>Education</h2>
+        <section id="about" class="section">
 
-        <h3>B.Sc. in Computer Science and Engineering</h3>
+            <div class="section-container">
 
-        <p>East West University, Bangladesh</p>
+                <div class="section-heading">
 
-        <p>2023 – Present</p>
+                    <p>ABOUT ME</p>
 
-        <p>CGPA: 3.44 / 4.00</p>
+                    <h2>
+                        A little bit about me
+                    </h2>
 
-    </section>
+                </div>
+
+                <div class="about-content">
+
+                    <div class="about-text">
+
+                        <p>
+                            I am a Computer Science and Engineering
+                            student at East West University, Bangladesh.
+                            I am passionate about technology and enjoy
+                            working on projects that combine programming,
+                            data and artificial intelligence.
+                        </p>
+
+                        <p>
+                            My current interests include software
+                            development, data science, machine learning,
+                            computer vision and natural language
+                            processing.
+                        </p>
+
+                        <p>
+                            I am continuously improving my technical
+                            skills by working on academic projects,
+                            research-oriented projects and practical
+                            applications.
+                        </p>
+
+                    </div>
+
+                    <div class="about-stats">
+
+                        <div class="stat">
+                            <h3>3.44</h3>
+                            <p>CGPA</p>
+                        </div>
+
+                        <div class="stat">
+                            <h3>2023</h3>
+                            <p>Started CSE</p>
+                        </div>
+
+                        <div class="stat">
+                            <h3>10+</h3>
+                            <p>Technologies</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
 
 
-    <!-- Contact -->
-    <section id="contact">
+        <!-- ================= SKILLS ================= -->
 
-        <h2>Contact Me</h2>
+        <section id="skills" class="section skills-section">
 
-        <p>Email: your-email@example.com</p>
+            <div class="section-container">
 
-        <p>
-            GitHub:
-            <a href="#" target="_blank">GitHub Profile</a>
-        </p>
+                <div class="section-heading">
 
-        <p>
-            LinkedIn:
-            <a href="#" target="_blank">LinkedIn Profile</a>
-        </p>
+                    <p>MY SKILLS</p>
 
-    </section>
+                    <h2>
+                        Technologies I work with
+                    </h2>
 
+                </div>
+
+                <div class="skills-grid">
+
+                    <div class="skill-card">
+                        <span>01</span>
+                        <h3>Programming</h3>
+                        <p>Python, Java, C, JavaScript</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <span>02</span>
+                        <h3>Data & Database</h3>
+                        <p>SQL, MySQL, Data Analysis</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <span>03</span>
+                        <h3>AI & Machine Learning</h3>
+                        <p>Machine Learning, Deep Learning, Computer Vision</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <span>04</span>
+                        <h3>Web Development</h3>
+                        <p>HTML, CSS, JavaScript</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <span>05</span>
+                        <h3>Tools</h3>
+                        <p>Git, GitHub, VS Code, Kaggle, Google Colab</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <span>06</span>
+                        <h3>Other</h3>
+                        <p>REST APIs, Data Scraping, Research</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PROJECTS ================= -->
+
+        <section id="projects" class="section">
+
+            <div class="section-container">
+
+                <div class="section-heading">
+
+                    <p>MY WORK</p>
+
+                    <h2>
+                        Featured Projects
+                    </h2>
+
+                </div>
+
+                <div class="projects-grid">
+
+
+                    <!-- Project 1 -->
+
+                    <article class="project-card">
+
+                        <div class="project-number">
+                            01
+                        </div>
+
+                        <div class="project-content">
+
+                            <p class="project-category">
+                                Deep Learning • Computer Vision
+                            </p>
+
+                            <h3>
+                                Eye Disease Classification
+                            </h3>
+
+                            <p>
+                                A deep learning project for classifying
+                                eye diseases from eye images using
+                                computer vision and neural network
+                                models.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>Python</span>
+                                <span>PyTorch</span>
+                                <span>Deep Learning</span>
+                                <span>Computer Vision</span>
+                            </div>
+
+                            <a href="#" class="project-link">
+                                View Project →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Project 2 -->
+
+                    <article class="project-card">
+
+                        <div class="project-number">
+                            02
+                        </div>
+
+                        <div class="project-content">
+
+                            <p class="project-category">
+                                Deep Learning • Image Classification
+                            </p>
+
+                            <h3>
+                                Warli Art Classification
+                            </h3>
+
+                            <p>
+                                An image classification project using
+                                deep learning to classify different
+                                categories of traditional Warli artwork.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>Python</span>
+                                <span>PyTorch</span>
+                                <span>MobileNetV3</span>
+                                <span>Computer Vision</span>
+                            </div>
+
+                            <a href="#" class="project-link">
+                                View Project →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Project 3 -->
+
+                    <article class="project-card">
+
+                        <div class="project-number">
+                            03
+                        </div>
+
+                        <div class="project-content">
+
+                            <p class="project-category">
+                                Software Development
+                            </p>
+
+                            <h3>
+                                Promee ISP Management System
+                            </h3>
+
+                            <p>
+                                A web-based ISP management system designed
+                                to manage clients, billing, HR, support,
+                                tasks and other business operations.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>Dashboard</span>
+                            </div>
+
+                            <a href="#" class="project-link">
+                                View Project →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Project 4 -->
+
+                    <article class="project-card">
+
+                        <div class="project-number">
+                            04
+                        </div>
+
+                        <div class="project-content">
+
+                            <p class="project-category">
+                                Web Development
+                            </p>
+
+                            <h3>
+                                Poth-Chola Travel Agency
+                            </h3>
+
+                            <p>
+                                A travel agency project developed to
+                                provide travel-related services and
+                                manage travel information.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>Web Development</span>
+                                <span>JavaScript</span>
+                                <span>Database</span>
+                            </div>
+
+                            <a href="#" class="project-link">
+                                View Project →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= EDUCATION ================= -->
+
+        <section id="education" class="section education-section">
+
+            <div class="section-container">
+
+                <div class="section-heading">
+
+                    <p>EDUCATION</p>
+
+                    <h2>
+                        My Academic Journey
+                    </h2>
+
+                </div>
+
+                <div class="education-card">
+
+                    <div class="education-year">
+                        2023 — Present
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Bachelor of Science in Computer Science
+                            and Engineering
+                        </h3>
+
+                        <p class="university">
+                            East West University, Bangladesh
+                        </p>
+
+                        <p>
+                            CGPA: 3.44 / 4.00
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="education-card">
+
+                    <div class="education-year">
+                        HSC
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Higher Secondary Certificate
+                        </h3>
+
+                        <p class="university">
+                            Viqarunnisa Noon School & College
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTACT ================= -->
+
+        <section id="contact" class="section contact-section">
+
+            <div class="section-container">
+
+                <div class="contact-box">
+
+                    <p class="contact-small">
+                        GET IN TOUCH
+                    </p>
+
+                    <h2>
+                        Let's build something together.
+                    </h2>
+
+                    <p>
+                        I am currently open to internship opportunities,
+                        projects and learning experiences.
+                    </p>
+
+                    <a href="mailto:your-email@example.com"
+                       class="primary-button">
+                        Send Me an Email
+                    </a>
+
+                    <div class="contact-links">
+
+                        <a href="https://github.com/" target="_blank">
+                            GitHub
+                        </a>
+
+                        <a href="https://www.linkedin.com/" target="_blank">
+                            LinkedIn
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
 
     <footer>
 
-        <p>© 2026 Sumiaya Sharif. All Rights Reserved.</p>
+        <p>
+            © 2026 Sumiaya Sharif. All rights reserved.
+        </p>
 
     </footer>
 
